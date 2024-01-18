@@ -6,4 +6,71 @@
 
 .container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: rgb(59, 59, 59);
+    height: 100vh;
+}
+
+.container h1 {
+    color: red;
+}
+
+.time {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width: 90px;
+}
+
+.separator {
+    padding: 0 10px;
+}
+
+#milliseconds {
+    font-size: 30px;   
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#startBtn {
+    background-color: green;
+    color: aliceblue;
+}
+
+#pauseBtn {
+    background-color: rgb(255, 145, 0);
+    color: aliceblue;
+}
+
+#resumeBtn,
+#resetBtn {
+    display: none;
 }
