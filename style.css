@@ -79,3 +79,21 @@
 #resetBtn {
     display: none;
 }
+
+.titulo-placar {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.gols {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #ccc;
+}
+
+.gols-placas {
+    font-size: 30px;
+    width: 100px;
+}
